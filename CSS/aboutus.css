@@ -1,0 +1,1181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+} */
+
+.carone {
+  position: relative;
+}
+
+.border {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.club {
+  width: 60%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.car {
+  width: 20em;
+}
+
+.cars {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.centered {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  font-size: 1.5em;
+  color: #d790ff;
+  font-family: Lucida Console, Lucida Sans Typewriter, monaco,
+    Bitstream Vera Sans Mono, monospace;
+}
+.architechs-car-header {
+  position: absolute;
+  left: 34%;
+}
+.gomyno-car-header {
+  position: absolute;
+  left: 37%;
+}
+.googledsc-car-header {
+  position: absolute;
+  left: 34%;
+}
+.motorsports-car-header {
+  position: absolute;
+  left: 33%;
+}
+.firstrow {
+  margin-top: 7em;
+}
+
+.secondrow {
+  position: relative;
+  top: 10vh;
+}
+
+.thirdrow {
+  position: relative;
+  top: 20vh;
+}
+
+.outline {
+  margin-top: 1vh;
+  height: 95vh;
+  width: 100vw;
+}
+
+.clubmainheader {
+  position: absolute;
+  left: 37%;
+  top: 10%;
+
+  font-size: 3em;
+  color: #d790ff;
+  font-family: Lucida Console, Lucida Sans Typewriter, monaco,
+    Bitstream Vera Sans Mono, monospace;
+}
+
+.clubsmobile {
+  display: none;
+}
+
+@media screen and (max-width: 1221px) {
+  .club {
+    display: none;
+  }
+
+  .clubsmobile {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 60vh;
+
+    z-index: 99;
+  }
+
+  .car {
+    width: 14em;
+    position: relative;
+    top: -2.1em;
+    left: 3em;
+  }
+
+  /* .firstrow {
+    margin-top: 6rem;
+  }
+  .secondrow {
+    margin-top: 2rem;
+  }
+
+  .thirdrow {
+    margin-top: 2rem;
+  } */
+  .firstrow {
+    margin-top: 7em;
+  }
+
+  .secondrow {
+    position: relative;
+    top: 4vh;
+  }
+
+  .thirdrow {
+    position: relative;
+    top: 8vh;
+  }
+
+  .centered {
+    position: absolute;
+    top: -10px;
+    left: 120px;
+    width: 100%;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .car {
+    width: 13em;
+    position: relative;
+    top: -20px;
+    left: 19px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    font-size: 1em;
+  }
+
+  .clubmainheader {
+    position: absolute;
+    top: 60px;
+    left: 40%;
+
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .car {
+    width: 9em;
+    position: relative;
+    top: 10px;
+    left: -0.01em;
+  }
+
+  .centered {
+    position: absolute;
+    top: 23px;
+    left: 45px;
+    font-size: 0.8em;
+  }
+}
+
+/* INDIVIDUAL PAGES  */
+.individual-pages {
+  position: relative;
+  transition: all 1s ease;
+}
+
+.entire {
+  /* background-color: black; */
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  ) !important;
+}
+
+.border {
+  position: relative;
+  /* left: -100vw; */
+  top: -100vh !important;
+}
+
+.header-individualpg {
+  display: none !important;
+}
+
+/*************** INDIVIDUAL ARCHITECHS  ****************/
+.individual-architechs {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  bottom: 0;
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-architechs h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-architechs .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+/* .individual-architechs p {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 9rem;
+  width: 80%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: white !important;
+} */
+.individual-text-div {
+  background-image: radial-gradient(
+    circle farthest-corner at 14.5% 59%,
+    rgba(117, 0, 149, 1) 22%,
+    rgba(88, 0, 112, 0.76) 79.5%
+  );
+  width: 60%;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  padding: 10px 50px 30px 50px;
+  border-radius: 70px;
+  text-align: center;
+}
+
+.one-contact {
+  position: absolute;
+  color: white;
+  right: 8%;
+  top: 10px;
+}
+.one-contact h2 {
+  width: 100% !important;
+}
+.one-contact img {
+  border-radius: 50%;
+}
+
+.one-contact h2,
+h3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery h2 {
+  color: white;
+  position: relative;
+  left: 10%;
+  font-size: 3.5em;
+  margin-bottom: 50px;
+}
+
+/*************** INDIVIDUAL ER  *****************/
+
+.individual-er {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  /* bottom: 0; */
+  margin-top: -100vh;
+  /* left: 100vw; */
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-er h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-er .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.individual-er p {
+  font-size: 1.5em;
+  position: absolute;
+  top: 9em;
+  width: 90%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+
+/******** INDIVIDUAL GOMYNO  ***************/
+.individual-gomyno {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  /* bottom: 0; */
+  margin-top: -100vh;
+  /* left: 100vw; */
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-gomyno h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-gomyno .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.individual-gomyno p {
+  font-size: 1.5em;
+  position: absolute;
+  top: 9em;
+  width: 90%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+
+/******** INDIVIDUAL GOOGLE DSC  ***************/
+.individual-googledsc {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  /* bottom: 0; */
+  margin-top: -100vh;
+  /* left: 100vw; */
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-googledsc h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-googledsc .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.individual-googledsc p {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 9em;
+  width: 90%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+
+/******** INDIVIDUAL MOTORSPORTS  ***************/
+.individual-motorsports {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  /* bottom: 0; */
+  margin-top: -100vh;
+  /* left: 100vw; */
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-motorsports h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-motorsports .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.individual-motorsports p {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 9em;
+  width: 90%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+
+/******** INDIVIDUAL M-DASH  ***************/
+.individual-mdash {
+  height: 100vh;
+  width: 100%;
+  margin-left: 100vw;
+  position: relative;
+  /* left: 100vw; */
+  z-index: 9999999999999;
+  /* bottom: 0; */
+  margin-top: -100vh;
+  /* left: 100vw; */
+  transition: all 1s ease;
+  background-image: linear-gradient(
+    91.2deg,
+    rgba(22, 17, 17, 1) 2.4%,
+    rgba(151, 22, 129, 1) 50.3%,
+    rgba(22, 13, 21, 1) 100.9%
+  );
+}
+
+.individual-mdash h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  font-size: 3em;
+}
+
+.individual-mdash .back i {
+  width: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.individual-mdash p {
+  font-size: 1.5em;
+  position: absolute;
+  top: 9em;
+  width: 90%;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+
+/* *********** */
+.gallery {
+  position: relative;
+  top: 40vh;
+}
+
+.gallery-slider {
+  /* position: relative; */
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  display: inline-block;
+  width: 80%;
+}
+
+/* .gallery-architechs {
+  position: relative;
+  position: absolute;
+
+  left: 12rem;
+  display: inline-block;
+  width: 80%;
+}
+.gallery-er {
+  position: relative;
+  position: absolute;
+
+  left: 12rem;
+  display: inline-block;
+  width: 80%;
+} */
+.gallery-slider img {
+  width: 80%;
+  display: inline-block;
+}
+
+/* .gallery-architechs img {
+  width: 15rem;
+  height: 10rem;
+  display: inline-block;
+}
+.gallery-er img {
+  width: 15rem;
+  height: 10rem;
+  display: inline-block;
+} */
+/* .next,
+.prev {
+  cursor: pointer;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.next {
+  position: absolute;
+  right: 1em;
+}
+.prev {
+  position: absolute;
+  left: 2em;
+} */
+
+/* KAKASHI CODE  */
+
+.circle {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.centeredkakashi {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #d790ff;
+}
+
+.circle img {
+  width: 70%;
+  height: 80%;
+}
+
+.contain {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+p {
+  text-align: center;
+}
+
+@media screen and (max-width: 1221px) {
+  .contain {
+    width: 100vw;
+    height: 30vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 35% !important;
+    height: 80% !important;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+    margin: 3em 0 5em 0;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 35% !important;
+    height: 110% !important;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 40% !important;
+    height: 100% !important;
+  }
+
+  .centeredkakashi {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 814px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 40% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 40% !important;
+    height: 100% !important;
+  }
+  .one-contact h2 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 50% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 55% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contain {
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+  }
+
+  .circle {
+    width: 100%;
+
+    position: relative;
+
+    height: 100%;
+  }
+
+  .circle-img {
+    width: 75% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .centeredkakashi {
+    font-size: 12px;
+  }
+}
+
+/* KAKASHI CODE  */
+.test {
+  height: 100vh;
+}
+
+@media screen and (max-width: 1037px) {
+  .individual-architechs p {
+    font-size: 120%;
+  }
+
+  .individual-er p {
+    font-size: 120%;
+  }
+
+  .individual-motorsports p {
+    font-size: 120%;
+  }
+
+  .individual-gomyno p {
+    font-size: 120%;
+  }
+
+  .individual-googledsc p {
+    font-size: 120%;
+  }
+
+  .individual-mdash p {
+    font-size: 120%;
+  }
+
+  .individual-architechs h1 {
+    font-size: 4em;
+  }
+
+  .individual-er h1 {
+    font-size: 4em;
+  }
+
+  .individual-gomyno h1 {
+    font-size: 3em;
+  }
+
+  .individual-googledsc h1 {
+    font-size: 3em;
+
+    margin-left: 10px;
+  }
+
+  .individual-motorsports h1 {
+    font-size: 2.7em;
+  }
+
+  .individual-mdash h1 {
+    font-size: 3em;
+  }
+
+  .individual-pages .back i {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+  .gallery {
+    position: relative;
+    top: 55vh;
+  }
+
+  .one-contact {
+    position: absolute;
+    right: 2%;
+    top: 50px;
+  }
+
+  .one-contact img {
+    width: 80%;
+  }
+
+  .one-contact h2,
+  h3 {
+    width: 80%;
+  }
+
+  .individual-text-div {
+    position: absolute;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .individual-text-div h1 {
+    display: none;
+  }
+
+  .header-individualpg {
+    display: inline-block !important;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .one-contact img {
+    width: 90%;
+    position: absolute;
+  }
+
+  .one-contact {
+    position: absolute;
+    top: 3%;
+  }
+
+  .one-contact h2,
+  h3 {
+    position: relative;
+    top: 18vh;
+  }
+
+  .one-contact h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .one-contact h3 {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+
+  .individual-text-div {
+    top: 33vh;
+    width: 90%;
+  }
+
+  .gallery {
+    position: relative;
+    top: 310px;
+  }
+
+  .gallery h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .individual-architechs p {
+    font-size: 100%;
+  }
+
+  .individual-er p {
+    font-size: 100%;
+  }
+
+  .individual-gomyno p {
+    font-size: 100%;
+  }
+
+  .individual-googledsc p {
+    font-size: 100%;
+  }
+
+  .individual-motorsports p {
+    font-size: 100%;
+  }
+
+  .individual-mdash p {
+    font-size: 100%;
+  }
+
+  .individual-text-div {
+    padding: 10px 30px 30px 30px;
+  }
+  .header-individualpg {
+    display: inline-block !important;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    transform: translateX(-20%);
+  }
+}
+
+@media screen and (max-width: 647px) {
+  .gallery {
+    top: 46vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .individual-text-div {
+    padding: 10px 20px 30px 20px;
+  }
+
+  .header-individualpg {
+    display: inline-block !important;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    transform: translateX(-20%);
+  }
+
+  .gallery {
+    position: relative;
+    top: 50vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .individual-text-div {
+    padding: 10px 10px 30px 10px;
+  }
+  .header-individualpg {
+    font-size: 3em !important;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .header-individualpg {
+    font-size: 2.5em !important;
+  }
+
+  .individual-text-div {
+    padding: 5px 10px 10px 10px;
+  }
+
+  .gallery h2 {
+    font-size: 2.4rem;
+  }
+
+  .gallery {
+    position: relative;
+    top: 55vh;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .individual-architechs p {
+    font-size: 90%;
+  }
+
+  .individual-er p {
+    font-size: 90%;
+  }
+
+  .individual-gomyno p {
+    font-size: 90%;
+  }
+
+  .individual-googledsc p {
+    font-size: 90%;
+  }
+
+  .individual-motorsports p {
+    font-size: 90%;
+  }
+
+  .individual-mdash p {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .header-individualpg {
+    font-size: 2.5em !important;
+  }
+
+  .gallery {
+    position: relative;
+    top: 59vh;
+  }
+
+  .individual-text-div {
+    padding: 0px 10px 10px 0px;
+    position: absolute;
+    top: 12rem;
+  }
+  .one-contact {
+    position: absolute;
+    top: 2rem;
+  }
+  .one-contact img {
+    width: 50%;
+    position: absolute;
+    left: 60%;
+    transform: translate(-60%);
+  }
+  .one-contact h2,
+  h3 {
+    position: relative;
+    top: 60px;
+    font-size: 1em;
+  }
+  .one-contact h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  /* .individual-architechs p {
+    font-size: 90%;
+  }
+  .individual-er p {
+    font-size: 90%;
+  }
+  .individual-gomyno p {
+    font-size: 90%;
+  }
+  .individual-googledsc p {
+    font-size: 90%;
+  }
+  .individual-motorsports p {
+    font-size: 90%;
+  }
+  .individual-mdash p {
+    font-size: 90%;
+  } */
+  .header-individualpg {
+    font-size: 2em !important;
+  }
+
+  /* .one-contact {
+    width: 30%;
+  } */
+
+  /* .one-contact h2 {
+    font-size: 15px;
+    width: 100%;
+    top: 90px;
+  }
+
+  .one-contact h3 {
+    font-size: 15px;
+    top: 90px;
+  } */
+
+  .individual-text-div {
+    top: 165px;
+  }
+}
+/* .mobile-car-architechs {
+  position: absolute;
+  left: 6em;
+}
+.mobile-car-googledsc {
+  position: absolute;
+  left: 6em;
+}
+.mobile-car-motorsports {
+  position: absolute;
+  left: 6em;
+} */

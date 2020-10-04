@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth !important;
+}
+/*
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span  {
+	background: white
+	width: 10px;
+	height: 10px;
+	margin: -4px 0 0 -4px;
+}
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 2px solid #212121;
+}
+
+@media screen and (max-width: 700px) {
+	#fp-nav ul li a span, 
+	.fp-slidesNav ul li a span {
+	width: 10px;
+	height: 10px;
+	margin: -4px 0 0 -4px;
+}
+
+	#fp-nav ul li a.active span, 
+	.fp-slidesNav ul li a.active span, 
+	#fp-nav ul li:hover a.active span, 
+	.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	border: 2px solid #212121;
+}
+}
+
+@media screen and (max-width: 300px) {
+  	#fp-nav ul li a span, 
+	.fp-slidesNav ul li a span {
+	width: 10px;
+	height: 10px;
+	margin: -4px 0 0 -4px;
+}
+
+	#fp-nav ul li a.active span, 
+	.fp-slidesNav ul li a.active span, 
+	#fp-nav ul li:hover a.active span, 
+	.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	border: 2px solid #212121;
+}
+
+}	*/

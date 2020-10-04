@@ -1,0 +1,130 @@
+/* body {
+  background-color: blue;
+} */
+.GS-stab {
+  height: 45vh;
+
+  padding-top: 7vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+.contact-us {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #000428,
+    #004e92
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #000428,
+    #004e92
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh !important;
+}
+.heading-gs {
+  width: 30vh;
+  height: 4vh;
+  background-color: rgb(50, 50, 50);
+
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3vh;
+
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#img-gs {
+  width: 24vh;
+  height: 24vh;
+}
+.imgclub {
+  width: 15vh;
+  height: 15vh;
+}
+.stab-club {
+  text-align: center;
+}
+.clubyash {
+  width: 20vh;
+  margin: 2vh;
+  display: inline-block;
+}
+.heading {
+  width: 18vh;
+  height: 3vh;
+  background-color: rgb(50, 50, 50);
+
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 650px) {
+  .imgclub {
+    width: 12vh;
+    height: 12vh;
+  }
+  .heading {
+    width: 15vh;
+    height: 3vh;
+    background-color: rgb(50, 50, 50);
+
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #img-gs {
+    width: 22vh;
+    height: 22vh;
+  }
+  .GS-stab {
+    height: 40vh;
+
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    text-align: center;
+  }
+  .heading-gs {
+    width: 26vh;
+    height: 4vh;
+    background-color: rgb(50, 50, 50);
+
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3vh;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .clubyash {
+    width: 18vh;
+    margin: 1vh;
+    display: inline-block;
+  }
+}
+@media (max-width: 410px) {
+  .imgclub {
+    width: 10vh;
+    height: 10vh;
+  }
+  .heading {
+    width: 12vh;
+    height: 3vh;
+    background-color: rgb(50, 50, 50);
+
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
