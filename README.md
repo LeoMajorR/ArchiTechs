@@ -6,3 +6,7 @@ This Repo Contains Implementations of Websites maintained by Architechs Club of 
 <center>
 <img src="./assets/logo.jpg" width=400>
 <center>
+
+|  Club | Link  |
+|:-:|---|
+|  STAB | [Website Link](https://leomajorr.github.io/ArchiTechs/STAB/index.html#home) |
