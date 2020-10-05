@@ -5,7 +5,7 @@
 This Repo Contains Implementations of Websites maintained by Architechs Club of IIT Goa.
 <center>
 <img src="./assets/logo.jpg" width=400>
-<center>
+</enter>
 
 |  Club | Link  |
 |:-:|---|
