@@ -127,15 +127,15 @@
 
 .footer-right a {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 4vh;
+    height: 4vh;
     background-color: #33383b;
-    border-radius: 2px;
-    font-size: 40px;
+    border-radius: 1vh;
+    font-size: 3vh;
     color: #ffffff;
     text-align: center;
-    line-height: 35px;
-    margin-left: 3px;
+    line-height: 4vh;
+    margin-left: 1vh;
     transition: all .25s;
 }
 
