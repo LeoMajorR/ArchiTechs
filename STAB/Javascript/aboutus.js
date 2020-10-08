@@ -7,7 +7,7 @@ var cimage1 = document.getElementById('cimage1');
 var cimage2 = document.getElementById('cimage2');
 var cimage3 = document.getElementById('cimage3');
 var cimage4 = document.getElementById('cimage4');
-var cimage5 = document.getElementById('cimage5');
+// var cimage5 = document.getElementById('cimage5');
 var individual_common = document.getElementById('individual-common');
 
 function commonbackFunction() {
@@ -33,7 +33,7 @@ function commonclubfunction(x) {
             by the design team for the creation of apps and websites.Conclusively, the design team is responsible \
             for the attractiveness of the site and the programming team ensures the practicality and is responsible \
             for making the apps and sites operational for users.';
-        cheadname.innerHTML = 'Architechs-Head';
+        cheadname.innerHTML = 'ArchiTechs-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/arch1.jpg';
         cimage2.src = './images/archi2.jpg';
@@ -46,7 +46,7 @@ function commonclubfunction(x) {
         Arduino, IOT, etc have been organised in the past and the club continues to be one of the most active clubs\
         under student technical Activities Body.The club caters to every individual with or without experience and\
         helps students gain the required knowledge and experience.';
-        cheadname.innerHTML = 'e&r-Head';
+        cheadname.innerHTML = 'E & R-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/1.jpg';
         cimage2.src = './images/2.jpg';
@@ -60,7 +60,7 @@ function commonclubfunction(x) {
              hackathons and coding competitions like Game of Codes, etc are organised by the club. The aim of the club \
               is to build a strong coding culture among the passionate students of the institute so that they can get \
               assistance and enhance their coding ability.';
-        cheadname.innerHTML = 'gomyno-Head';
+        cheadname.innerHTML = 'GoMyno-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/1.jpg';
         cimage2.src = './images/2.jpg';
@@ -76,7 +76,7 @@ function commonclubfunction(x) {
             communities.By developing solutions, the talented students can now help the local community and have a \
             hands-on experience for building real world applications. Being a very active club, it has organised several \
              events and workshops on a very regular basis to generate interest among students';
-        cheadname.innerHTML = 'googledsc-Head';
+        cheadname.innerHTML = 'Google DSC Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/1.jpg';
         cimage2.src = './images/2.jpg';
@@ -86,7 +86,7 @@ function commonclubfunction(x) {
         cheading.innerHTML = 'INFOSEC';
         cdetails.innerHTML =
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, expedita dolore ipsam tenetur iure similique pariatur alias minus corporis provident aperiam cupiditate soluta, libero est facere qui itaque reiciendis animi quae odit quis hic praesentium optio nemo. Beatae consectetur distinctio repellendus tempore optio ipsam reiciendis praesentium hic facere.';
-        cheadname.innerHTML = 'motorsports-Head';
+        cheadname.innerHTML = 'InfoSec-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/1.jpg';
         cimage2.src = './images/2.jpg';
@@ -100,7 +100,7 @@ function commonclubfunction(x) {
              a mechanical engineering based background. Various workshops and events are held regularly to make the students \
             comfortable with various designing softwares like AutoCAD, Solidworks, etc.Things are taught from scratch to \
             freshmen and hence, everyone is welcome to join the club and gain knowledge and experience.';
-        cheadname.innerHTML = 'mdash-Head';
+        cheadname.innerHTML = 'M-Dash -Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/1.jpg';
         cimage2.src = './images/2.jpg';
