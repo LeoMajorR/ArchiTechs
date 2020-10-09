@@ -2,7 +2,7 @@
 <base target="_blank">
 <hr>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Created Badge](https://badges.pufler.dev/created/leomajorr/architechs)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/leomajorr/architechs)](https://badges.pufler.dev)
 
 #### This Repository Contains Implementations of Websites of Technical Clubs of IIT, Goa maintained by Architechs Club of IIT Goa.
 
