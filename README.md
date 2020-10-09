@@ -4,7 +4,7 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-### This Repo Contains Implementations of Websites maintained by Architechs Club of IIT Goa.
+#### This Repository Contains Implementations of Websites of Technical Clubs of IIT, Goa maintained by Architechs Club of IIT Goa.
 
 <p align="center">
 <img src="./assets/logo.jpg" width=400>
