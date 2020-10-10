@@ -97,11 +97,11 @@ function commonclubfunction(x) {
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, expedita dolore ipsam tenetur iure similique pariatur alias minus corporis provident aperiam cupiditate soluta, libero est facere qui itaque reiciendis animi quae odit quis hic praesentium optio nemo. Beatae consectetur distinctio repellendus tempore optio ipsam reiciendis praesentium hic facere.';
         cheadname.innerHTML = 'InfoSec-Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/1.jpg';
-        cimage2.src = './images/2.jpg';
-        cimage3.src = './images/3.jpg';
-        cimage4.src = './images/4.jpg';
-        cimage5.src = './images/5.jpg';
+        cimage1.src = './images/load.gif';
+        cimage2.src = './images/load.gif';
+        cimage3.src = './images/load.gif';
+        cimage4.src = './images/load.gif';
+        cimage5.src = './images/load.gif';
         headpic.src = './images/clubhead/rahul.jpg'
     } else if (x == 'mdash') {
         cheading.innerHTML = 'M-DASH';
