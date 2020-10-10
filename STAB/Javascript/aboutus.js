@@ -7,7 +7,8 @@ var cimage1 = document.getElementById('cimage1');
 var cimage2 = document.getElementById('cimage2');
 var cimage3 = document.getElementById('cimage3');
 var cimage4 = document.getElementById('cimage4');
-// var cimage5 = document.getElementById('cimage5');
+var cimage5 = document.getElementById('cimage5');
+var headpic = document.getElementById('headpic');
 var individual_common = document.getElementById('individual-common');
 
 function commonbackFunction() {
@@ -33,12 +34,14 @@ function commonclubfunction(x) {
             by the design team for the creation of apps and websites.Conclusively, the design team is responsible \
             for the attractiveness of the site and the programming team ensures the practicality and is responsible \
             for making the apps and sites operational for users.';
-        cheadname.innerHTML = 'ArchiTechs-Head';
+        cheadname.innerHTML = 'ArchiTechs - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/arch1.jpg';
-        cimage2.src = './images/archi2.jpg';
-        cimage3.src = './images/archi3.jpg';
-        cimage4.src = './images/archi4.jpg';
+        cimage1.src = './images/clubs/archi/1.jpg';
+        cimage2.src = './images/clubs/archi/2.jpg';
+        cimage3.src = './images/clubs/archi/3.jpg';
+        cimage4.src = './images/clubs/archi/4.jpg';
+        cimage5.src = './images/clubs/archi/5.jpg';
+        headpic.src = './images/clubhead/kakashi.jpg'
     } else if (x == 'er') {
         cheading.innerHTML = 'E & R';
         cdetails.innerHTML =
@@ -48,10 +51,12 @@ function commonclubfunction(x) {
         helps students gain the required knowledge and experience.';
         cheadname.innerHTML = 'E & R-Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/1.jpg';
-        cimage2.src = './images/2.jpg';
-        cimage3.src = './images/3.jpg';
-        cimage4.src = './images/4.jpg';
+        cimage1.src = './images/clubs/er/1.jpg';
+        cimage2.src = './images/clubs/er/2.jpg';
+        cimage3.src = './images/clubs/er/3.jpg';
+        cimage4.src = './images/clubs/er/4.jpg';
+        cimage5.src = './images/clubs/er/5.jpg';
+        headpic.src = './images/clubhead/janim.jpg'
     } else if (x == 'gomyno') {
         cheading.innerHTML = 'GOMYNO';
         cdetails.innerHTML =
@@ -60,12 +65,14 @@ function commonclubfunction(x) {
              hackathons and coding competitions like Game of Codes, etc are organised by the club. The aim of the club \
               is to build a strong coding culture among the passionate students of the institute so that they can get \
               assistance and enhance their coding ability.';
-        cheadname.innerHTML = 'GoMyno-Head';
+        cheadname.innerHTML = 'GoMyno - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/1.jpg';
-        cimage2.src = './images/2.jpg';
-        cimage3.src = './images/3.jpg';
-        cimage4.src = './images/4.jpg';
+        cimage1.src = './images/clubs/gomyno/1.jpg';
+        cimage2.src = './images/clubs/gomyno/2.jpg';
+        cimage3.src = './images/clubs/gomyno/3.jpg';
+        cimage4.src = './images/clubs/gomyno/4.jpg';
+        cimage5.src = './images/clubs/gomyno/5.jpg';
+        headpic.src = './images/clubhead/yash.jpg'
     } else if (x == 'googledsc') {
         cheading.innerHTML = 'GOOGLE DSC';
         cdetails.innerHTML =
@@ -76,12 +83,14 @@ function commonclubfunction(x) {
             communities.By developing solutions, the talented students can now help the local community and have a \
             hands-on experience for building real world applications. Being a very active club, it has organised several \
              events and workshops on a very regular basis to generate interest among students';
-        cheadname.innerHTML = 'Google DSC Head';
+        cheadname.innerHTML = 'Google DSC - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/1.jpg';
-        cimage2.src = './images/2.jpg';
-        cimage3.src = './images/3.jpg';
-        cimage4.src = './images/4.jpg';
+        cimage1.src = './images/clubs/dsc/1.jpg';
+        cimage2.src = './images/clubs/dsc/2.jpg';
+        cimage3.src = './images/clubs/dsc/3.jpg';
+        cimage4.src = './images/clubs/dsc/4.jpg';
+        cimage5.src = './images/clubs/dsc/5.jpg';
+        headpic.src = './images/clubhead/aditi.jpeg';
     } else if (x == 'motorsports') {
         cheading.innerHTML = 'INFOSEC';
         cdetails.innerHTML =
@@ -93,6 +102,7 @@ function commonclubfunction(x) {
         cimage3.src = './images/3.jpg';
         cimage4.src = './images/4.jpg';
         cimage5.src = './images/5.jpg';
+        headpic.src = './images/clubhead/rahul.jpg'
     } else if (x == 'mdash') {
         cheading.innerHTML = 'M-DASH';
         cdetails.innerHTML =
@@ -100,13 +110,14 @@ function commonclubfunction(x) {
              a mechanical engineering based background. Various workshops and events are held regularly to make the students \
             comfortable with various designing softwares like AutoCAD, Solidworks, etc.Things are taught from scratch to \
             freshmen and hence, everyone is welcome to join the club and gain knowledge and experience.';
-        cheadname.innerHTML = 'M-Dash -Head';
+        cheadname.innerHTML = 'M-Dash - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/1.jpg';
-        cimage2.src = './images/2.jpg';
-        cimage3.src = './images/3.jpg';
-        cimage4.src = './images/4.jpg';
-        cimage5.src = './images/5.jpg';
+        cimage1.src = './images/clubs/mdash/1.jpg';
+        cimage2.src = './images/clubs/mdash/2.jpg';
+        cimage3.src = './images/clubs/mdash/3.jpg';
+        cimage4.src = './images/clubs/mdash/4.jpg';
+        cimage5.src = './images/clubs/mdash/5.jpg';
+        headpic.src = './images/clubhead/darshay.jpg';
     }
 }
 
