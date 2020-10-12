@@ -94,14 +94,18 @@ function commonclubfunction(x) {
     } else if (x == 'motorsports') {
         cheading.innerHTML = 'INFOSEC';
         cdetails.innerHTML =
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, expedita dolore ipsam tenetur iure similique pariatur alias minus corporis provident aperiam cupiditate soluta, libero est facere qui itaque reiciendis animi quae odit quis hic praesentium optio nemo. Beatae consectetur distinctio repellendus tempore optio ipsam reiciendis praesentium hic facere.';
+            'Infosec IIT Goa consists of students enthusiastic about the domain of Cyber Security. There are currently 103 members\
+             in the club. The members have been reporting vulnerabilities in various websites. It also regularly participates in\
+              Capture The Flag Competitions. The team is actively involved in educating the students about the Cyber Security domain\
+               and assists them in the learning process. It has been the organizing partner for the HCL Cyber Security Hackathon 2020\
+                conducted IIT Kanpur.';
         cheadname.innerHTML = 'InfoSec-Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/load.gif';
-        cimage2.src = './images/load.gif';
-        cimage3.src = './images/load.gif';
-        cimage4.src = './images/load.gif';
-        cimage5.src = './images/load.gif';
+        cimage1.src = './images/clubs/infosec/infosec1.jpg';
+        cimage2.src = './images/clubs/infosec/infosec2.jpg';
+        cimage3.src = './images/clubs/infosec/infosec3.jpg';
+        cimage4.src = './images/clubs/infosec/infosec4.jpg';
+        cimage5.src = './images/clubs/infosec/infosec5.jpg';
         headpic.src = './images/clubhead/rahul.jpg'
     } else if (x == 'mdash') {
         cheading.innerHTML = 'M-DASH';
