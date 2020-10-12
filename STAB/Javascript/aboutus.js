@@ -51,11 +51,11 @@ function commonclubfunction(x) {
         helps students gain the required knowledge and experience.';
         cheadname.innerHTML = 'E & R-Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/clubs/er/1.jpg';
-        cimage2.src = './images/clubs/er/2.jpg';
-        cimage3.src = './images/clubs/er/3.jpg';
-        cimage4.src = './images/clubs/er/4.jpg';
-        cimage5.src = './images/clubs/er/5.jpg';
+        cimage1.src = './images/clubs/er/er1.jpg';
+        cimage2.src = './images/clubs/er/er2.jpg';
+        cimage3.src = './images/clubs/er/er3.jpg';
+        cimage4.src = './images/clubs/er/er4.jpg';
+        cimage5.src = './images/clubs/er/er5.jpg';
         headpic.src = './images/clubhead/janim.jpg'
     } else if (x == 'gomyno') {
         cheading.innerHTML = 'GOMYNO';
@@ -67,11 +67,11 @@ function commonclubfunction(x) {
               assistance and enhance their coding ability.';
         cheadname.innerHTML = 'GoMyno - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/clubs/gomyno/1.jpg';
-        cimage2.src = './images/clubs/gomyno/2.jpg';
-        cimage3.src = './images/clubs/gomyno/3.jpg';
-        cimage4.src = './images/clubs/gomyno/4.jpg';
-        cimage5.src = './images/clubs/gomyno/5.jpg';
+        cimage1.src = './images/clubs/gomyno/gomyno1.jpg';
+        cimage2.src = './images/clubs/gomyno/gomyno2.jpg';
+        cimage3.src = './images/clubs/gomyno/gomyno3.jpg';
+        cimage4.src = './images/clubs/gomyno/gomyno4.jpg';
+        cimage5.src = './images/clubs/gomyno/gomyno5.jpg';
         headpic.src = './images/clubhead/yash.jpg'
     } else if (x == 'googledsc') {
         cheading.innerHTML = 'GOOGLE DSC';
@@ -85,11 +85,11 @@ function commonclubfunction(x) {
              events and workshops on a very regular basis to generate interest among students';
         cheadname.innerHTML = 'Google DSC - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/clubs/dsc/1.jpg';
-        cimage2.src = './images/clubs/dsc/2.jpg';
-        cimage3.src = './images/clubs/dsc/3.jpg';
-        cimage4.src = './images/clubs/dsc/4.jpg';
-        cimage5.src = './images/clubs/dsc/5.jpg';
+        cimage1.src = './images/clubs/dsc/dsc1.jpg';
+        cimage2.src = './images/clubs/dsc/dsc2.jpg';
+        cimage3.src = './images/clubs/dsc/dsc3.jpg';
+        cimage4.src = './images/clubs/dsc/dsc4.jpg';
+        cimage5.src = './images/clubs/dsc/dsc5.jpg';
         headpic.src = './images/clubhead/aditi.jpeg';
     } else if (x == 'motorsports') {
         cheading.innerHTML = 'INFOSEC';
