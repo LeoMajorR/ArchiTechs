@@ -116,11 +116,11 @@ function commonclubfunction(x) {
             freshmen and hence, everyone is welcome to join the club and gain knowledge and experience.';
         cheadname.innerHTML = 'M-Dash - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/clubs/mdash/1.jpg';
-        cimage2.src = './images/clubs/mdash/2.jpg';
-        cimage3.src = './images/clubs/mdash/3.jpg';
-        cimage4.src = './images/clubs/mdash/4.jpg';
-        cimage5.src = './images/clubs/mdash/5.jpg';
+        cimage1.src = './images/clubs/mdash/mdash1.JPG';
+        cimage2.src = './images/clubs/mdash/mdash2.JPG';
+        cimage3.src = './images/clubs/mdash/mdash3.JPG';
+        cimage4.src = './images/clubs/mdash/mdash4.JPG';
+        cimage5.src = './images/clubs/mdash/mdash5.JPG';
         headpic.src = './images/clubhead/darshay.jpg';
     }
 }
