@@ -67,11 +67,11 @@ function commonclubfunction(x) {
               assistance and enhance their coding ability.';
         cheadname.innerHTML = 'GoMyno - Club Head';
         cheaddetail.innerHTML = 'Head-detail';
-        cimage1.src = './images/clubs/gomyno/gomyno1.jpg';
-        cimage2.src = './images/clubs/gomyno/gomyno2.jpg';
-        cimage3.src = './images/clubs/gomyno/gomyno3.jpg';
-        cimage4.src = './images/clubs/gomyno/gomyno4.jpg';
-        cimage5.src = './images/clubs/gomyno/gomyno5.jpg';
+        cimage1.src = './images/clubs/gomyno/gomynoa.jpg';
+        cimage2.src = './images/clubs/gomyno/gomynob.jpg';
+        cimage3.src = './images/clubs/gomyno/gomynoc.jpg';
+        cimage4.src = './images/clubs/gomyno/gomynod.jpg';
+        cimage5.src = './images/clubs/gomyno/gomynoe.jpg';
         headpic.src = './images/clubhead/yash.jpg'
     } else if (x == 'googledsc') {
         cheading.innerHTML = 'GOOGLE DSC';
