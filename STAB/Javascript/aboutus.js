@@ -30,11 +30,9 @@ function commonclubfunction(x) {
             '‘Archi-‘, taken from Architect represents the designing aspect and ‘-Techs’, taken from Technology represents \
              the programming aspect. Basically, the group indulges in app and web development, which is bifurcated into \
              designing and programming.The members of the Design team are the creative brains of the group, who lay down \
-             the basis for the programming to work on.The Programming team implements the outlook formulated \
-            by the design team for the creation of apps and websites.Conclusively, the design team is responsible \
-            for the attractiveness of the site and the programming team ensures the practicality and is responsible \
-            for making the apps and sites operational for users.';
-        cheadname.innerHTML = 'ArchiTechs - Club Head';
+             the basis for the programming to work on. ArchiTechs team ensures the practicality and is responsible \
+             for making the apps and sites operational for users.';
+        cheadname.innerHTML = 'ArchiTechs-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/clubs/archi/1.jpg';
         cimage2.src = './images/clubs/archi/2.jpg';
@@ -65,7 +63,7 @@ function commonclubfunction(x) {
              hackathons and coding competitions like Game of Codes, etc are organised by the club. The aim of the club \
               is to build a strong coding culture among the passionate students of the institute so that they can get \
               assistance and enhance their coding ability.';
-        cheadname.innerHTML = 'GoMyno - Club Head';
+        cheadname.innerHTML = 'GoMyno-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/clubs/gomyno/gomynoa.jpg';
         cimage2.src = './images/clubs/gomyno/gomynob.jpg';
@@ -76,14 +74,12 @@ function commonclubfunction(x) {
     } else if (x == 'googledsc') {
         cheading.innerHTML = 'GOOGLE DSC';
         cdetails.innerHTML =
-            'DSC IIT Goa powered by Google Developers is a programming club based in IIT Goa which aims to encourage \
-             programming culture in and around IIT Goa campus. It is a globally recognized student body which helps \
+            'DSC IIT Goa powered by Google Developers is a programming club based in IIT Goa. It is a globally recognized student body which helps \
             students to have the opportunity to not only learn development skills, but it also acts as a medium to \
             apply them to real life problems by finding solutions, and then showcasing their work within their \
             communities.By developing solutions, the talented students can now help the local community and have a \
-            hands-on experience for building real world applications. Being a very active club, it has organised several \
-             events and workshops on a very regular basis to generate interest among students';
-        cheadname.innerHTML = 'Google DSC - Club Head';
+            hands-on experience for building real world applications.';
+        cheadname.innerHTML = 'DSC-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/clubs/dsc/dsc1.jpg';
         cimage2.src = './images/clubs/dsc/dsc2.jpg';
@@ -114,7 +110,7 @@ function commonclubfunction(x) {
              a mechanical engineering based background. Various workshops and events are held regularly to make the students \
             comfortable with various designing softwares like AutoCAD, Solidworks, etc.Things are taught from scratch to \
             freshmen and hence, everyone is welcome to join the club and gain knowledge and experience.';
-        cheadname.innerHTML = 'M-Dash - Club Head';
+        cheadname.innerHTML = 'M-Dash-Head';
         cheaddetail.innerHTML = 'Head-detail';
         cimage1.src = './images/clubs/mdash/mdash1.JPG';
         cimage2.src = './images/clubs/mdash/mdash2.JPG';

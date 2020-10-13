@@ -899,7 +899,7 @@ p {
 
   .one-contact {
     position: absolute;
-    right: 2%;
+    right: 30%;
     top: 50px;
   }
 
@@ -920,7 +920,12 @@ p {
 
 @media screen and (max-width: 768px) {
   .individual-text-div h1 {
-    display: none;
+    display: flex;
+    font-size: xx-large;
+  }
+  .individual-text-div p {
+    display: flex;
+    font-size: smaller;
   }
 
   .header-individualpg {
@@ -933,11 +938,13 @@ p {
 
   .one-contact img {
     width: 90%;
-    position: absolute;
+    align-items: center;
+    position: relative;
   }
 
   .one-contact {
     position: absolute;
+    align-content: center;
     top: 3%;
   }
 
@@ -959,7 +966,7 @@ p {
   }
 
   .individual-text-div {
-    top: 33vh;
+    top: 45vh;
     width: 90%;
   }
 
@@ -975,27 +982,27 @@ p {
 
 @media screen and (max-width: 693px) {
   .individual-architechs p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-er p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-gomyno p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-googledsc p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-motorsports p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-mdash p {
-    font-size: 100%;
+    font-size: 70%;
   }
 
   .individual-text-div {
@@ -1065,27 +1072,27 @@ p {
 
 @media screen and (max-width: 457px) {
   .individual-architechs p {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   .individual-er p {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   .individual-gomyno p {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   .individual-googledsc p {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   .individual-motorsports p {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   .individual-mdash p {
-    font-size: 90%;
+    font-size: 70%;
   }
 }
 
@@ -1102,7 +1109,7 @@ p {
   .individual-text-div {
     padding: 0px 10px 10px 0px;
     position: absolute;
-    top: 12rem;
+    top: 16rem;
   }
   .one-contact {
     position: absolute;
@@ -1118,10 +1125,11 @@ p {
   h3 {
     position: relative;
     top: 60px;
-    font-size: 1em;
+    font-size: 2em;
   }
   .one-contact h3 {
-    font-size: 1em;
+    font-size: large;
+    top: 43px;
   }
 }
 
@@ -1164,7 +1172,7 @@ p {
   } */
 
   .individual-text-div {
-    top: 165px;
+    top: 200px;
   }
 }
 /* .mobile-car-architechs {
